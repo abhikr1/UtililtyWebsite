@@ -1,0 +1,113 @@
+.contents{
+    display: none;
+  }
+.heading{
+  display: flex;
+  justify-content: space-evenly;
+    position: sticky;    
+    top: 0;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
+    align-items: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color:white;
+}
+.options-nav:hover .contents{
+  display: block;
+  position: absolute;
+  color: black;
+} 
+.options-nav:hover{
+  cursor: pointer;
+    color: black;
+}
+.contents a {
+  display: block;
+  text-decoration: none;
+  min-width: 180px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 40px;
+  color:black;
+  background-color: #f6f8fa;
+  box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
+}
+.encoder {
+  background-color:greenyellow;
+  color:black;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  position:absolute;
+  left: 38%;
+}
+.reset{
+  background-color: x;
+  font-size: 16px;
+  border-radius: 10px;
+  line-height: 1.4;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: black;
+  margin-left: 51vw;
+}
+
+.input{
+  height: 280px;
+width: 400px;
+outline: none;
+resize: none;
+border: none;
+border-radius: 10px;
+overflow: hidden;
+padding: 10px 12px;
+font-weight: 400;
+font-size: 17px;
+box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.2);
+}
+.output{
+  height: 280px;
+  width: 400px;
+  outline: none;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 12px;
+  font-weight: 400;
+  font-size: 17px;
+  box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.2);
+}
+.textarea{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo{
+  position: fixed;
+  left: 4vw;
+  top:0.5vw;
+  font-size: 30px;
+}
+.logo a{
+  text-decoration: none;
+  color: black;
+}
+.utillogo{
+  position: fixed;
+  left:0.2vw;
+  top:0.5vw;
+}
+
+body{
+  background-image: url("../UtilityApp.jpeg");;
+  }
+@media screen and (max-width: 1100px){
+  .textarea {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    }
+  }

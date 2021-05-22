@@ -1,0 +1,33 @@
+.buttonfn{
+    color:green;
+    height: 40px;
+    width: 100px;
+    border-radius: 5%;
+    font-size: large;
+
+}
+.wrapper{
+    margin: 20rem; align-items: center;
+}
+.timer{
+    display: flex; flex-direction: column; align-items: center;
+}
+.time{
+    font-size: 4rem;
+    color:white ;
+}
+.head{
+   display: flex;
+   flex-direction: row;
+   color: white;
+   justify-content: space-evenly
+
+}
+.bg{
+    background-image: url("../UtilityApp.jpeg");;
+    }
+    h1{
+        color:  white;
+        font-style: normal;
+        text-decoration: none;
+    }

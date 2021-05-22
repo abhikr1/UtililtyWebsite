@@ -1,0 +1,29 @@
+.heading{
+    color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+
+}
+.options{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        justify-content: space-evenly;
+      }
+
+.grid-items {
+    text-align:center;
+}
+.grid-items img{
+    height: 250px;
+    width: 400px;
+}
+.bg{
+    margin-right: 80px;
+    margin-left: 60px;
+    background-image: url("./UtilityApp.jpeg");
+}

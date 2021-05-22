@@ -1,0 +1,53 @@
+.datetime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ini{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.lab{
+    font-size: 5vh;
+    padding-bottom: 20px;
+    color:white;
+}
+.input{
+    height: 5vh;
+    font-size: large;
+    
+}
+.one{
+    padding-bottom: 10px;
+}
+
+.ini1{
+    padding-left: 0.7px;
+}
+.buttonfn{
+    color:green;
+    height: 40px;
+    width: 100px;
+    border-radius: 5%;
+    font-size: large;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content:flex-end;
+ 
+ }
+ .bg{
+     background-image: url("../UtilityApp.jpeg");;
+     }
+     h1{
+         color:  white;
+         font-style: normal;
+     }
+
+     .title2{
+         padding-right:80px;
+     }
