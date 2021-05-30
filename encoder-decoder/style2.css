@@ -102,7 +102,7 @@ box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.2);
 }
 
 body{
-  background-image: url("../UtilityApp.jpeg");;
+  background-color: rgb(97, 93, 93);
   }
 @media screen and (max-width: 1100px){
   .textarea {

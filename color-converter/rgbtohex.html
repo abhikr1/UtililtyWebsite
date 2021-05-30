@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="rgbtohex1.css">
+    <script defer src="rgbtohex.js"></script>
+    <title>RGB TO HEX</title>
+    
+</head>
+<body>
+   <div class = "navbar">
+       <a href="../index.html" style="text-decoration: none; color: black;"><div>
+           Home
+       </div>
+    </a>
+       <div class = "heading">
+           RGB to HEX
+       </div>
+       <a href="./hextorgb1.html"  style="text-decoration: none; color: black;">
+       <div>
+           HEX to RGB
+       </div>
+    </a>
+   </div>
+    <div class="input-section">
+        <div class="red-slider-container" style="padding:3%">
+            <input type ="text" id ="input-red" placeholder="0-255" class="textbox"></input>
+            <input type="range" min="0" max="250" value="0" class="red-slider" id="red-range" onchange="updateRedTextInput(this.value)";>
+        </div>
+
+        <div class="green-slider-container" style="padding:3%">
+            <input type ="text" id ="input-green" placeholder="0-255" class="textbox"></input>
+            <input type="range" min="0" max="250" value="0" class="green-slider" id="green-range"  onchange="updateGreenTextInput(this.value)";>
+        </div>
+
+        <div class="blue-slider-container"  style="padding:3%">
+            <input type ="text" id ="input-blue" placeholder="0-255" class="textbox"></input>
+            <input type="range" min="0" max="250" value="0" class="blue-slider" id="blue-range"  onchange="updateBlueTextInput(this.value)";>
+        </div>
+        <div class="buttons" style="padding-top: 4%;">
+            <input class="button convert-button" type ="button" id ="to-Hex" value="Convert">
+            <input class="button clear-button" type ="button" id ="clear" value="Clear">
+        </div>
+    <div class = "output">
+        <input class="textbox-output" type ="text" id ="output-hex" placeholder="Output value"></input>  <div class="output-color" id ="op-color"></div>  
+
+</body>
+</html>

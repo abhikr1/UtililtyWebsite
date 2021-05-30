@@ -1,5 +1,5 @@
 .buttonfn{
-    color:green;
+    color:black;
     height: 40px;
     width: 100px;
     border-radius: 5%;
@@ -20,14 +20,28 @@
    display: flex;
    flex-direction: row;
    color: white;
-   justify-content: space-evenly
+   justify-content: space-between
 
 }
 .bg{
-    background-image: url("../UtilityApp.jpeg");;
+    background-color: rgb(97, 93, 93);
     }
     h1{
         color:  white;
         font-style: normal;
         text-decoration: none;
     }
+
+    .title h1{
+        margin-left: 46vw;
+        font-size: 39px;
+        text-decoration: underline;
+
+    }
+    .title2 h1{
+        font-size: 30px;
+    }
+
+.stopwatch-button2{
+    padding-top: 2%;
+}

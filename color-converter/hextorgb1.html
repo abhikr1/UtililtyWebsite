@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="rgbtohex1.css">
+    <script defer src="hextorgb.js"></script>
+    <title>RGB TO HEX</title>
+    
+</head>
+<body>
+   <div class = "navbar">
+       <a href="../index.html" style="text-decoration: none; color: black;"><div>
+           Home
+       </div>
+    </a>
+       <div class = "heading">
+           HEX to RGB
+       </div>
+       <a href="./rgbtohex.html"  style="text-decoration: none; color: black;">
+       <div>
+           RGB to HEX
+       </div>
+    </a>
+   </div>
+   <div class="input-section">
+    <div style="padding: 30px;">
+        <input class="textbox-output" type ="text" id ="input-hex" placeholder="Input Hex value"></input>
+    </div>
+    <div class="output-color" id ="op-color"></div>
+
+    <div class="buttons" style="padding-top: 4%;">
+        <input class="button convert-button" type ="button" id ="toRGB" value="Convert">
+        <input class="button clear-button" type ="button" id ="clear" value="Clear">
+    </div>
+
+
+    <div class="input-section">
+        <div class="red-slider-container">
+            <input type ="text" id ="output-red" placeholder="Red value" class="textbox"></input>
+        </div>
+
+        <div class="green-slider-container">
+            <input type ="text" id ="output-green" placeholder="Green value" class="textbox"></input>
+        </div>
+
+        <div class="blue-slider-container">
+            <input type ="text" id ="output-blue" placeholder=" Blue value" class="textbox"></input>
+        </div>
+
+        
+        
+    </div>
+    </div>
+
+</body>
+</html>

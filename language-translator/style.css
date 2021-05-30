@@ -3,18 +3,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 80px;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding-top: 30px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 30px;
-    
 }
 .input{
     background-color: rgb(206, 239, 245);
-    height: 280px;
-  width: 400px;
+    height: 40vh;
+  width: 30vw;
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
@@ -35,23 +28,21 @@
     
   }
   .buttonfn{
-      width: 200px;
-      padding: 15px;
-      background-color: rgb(30, 20, 41);
+      width: 150px;
+      background-color: black;
       color: whitesmoke;
-      font-size: medium;
-      font-style:italic;
+      font-size: 15px;
+      height: 40px;
+      border-radius: 6%;
   }
   .buttons{
-      padding-top: 50px;
+      padding: 5%;
   }
   .heading{
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
-    justify-content: space-around;
-    position: sticky;    
+    justify-content: space-evenly;
     top: 0;
-    box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
     align-items: center;
     line-height: 45px;
     text-decoration: none;
@@ -60,5 +51,31 @@
    
 }
 .bg{
-background-image: url("../UtilityApp.jpeg");
+  background-color: rgb(97, 93, 93);
+}
+
+@media screen and (max-width: 1000px) {
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 80px;
+    
+}
+.input{
+  background-color: rgb(206, 239, 245);
+  height: 40vh;
+width: 60vw;
+border-radius: 10px;
+overflow: hidden;
+padding: 20px;
+font-weight: 400;
+font-size: 17px;
+box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.2);
+}
+  
+}
+
+.buttonDiv{
+  padding: 3%
 }

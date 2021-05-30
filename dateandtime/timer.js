@@ -1,6 +1,5 @@
 
 document.querySelector('#start').addEventListener('click', startTime);
-
 function countdown() {
     let hour = document.querySelector('.hourfield');
 let minute = document.querySelector('.minutefield');
@@ -27,7 +26,6 @@ let secondfield = second.value;
         }
     }
     else{
-        console.log(`Second sub ${secondfield}`);
         secondfield -=1;
     }
     document.querySelector('.hourfield').value = hourfield;
@@ -36,7 +34,12 @@ let secondfield = second.value;
 }
 
 function startTime() {
-    console.log("aaaa")
+    let hour = document.querySelector('.hourfield');
+let minute = document.querySelector('.minutefield');
+let second = document.querySelector('.secondfield');
+// if(hour === 'OO' && minute === '00' && second === '00'){
+//     clearInterval(countdown);
+// }else
     intervalId = setInterval(countdown, 1000);
 
 }

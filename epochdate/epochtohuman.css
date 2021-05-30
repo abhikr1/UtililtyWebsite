@@ -3,35 +3,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 3%;
 }
 .ini{
     padding-left: 20px;
     padding-bottom: 20px;
 }
 .lab{
-    font-size: 5vh;
+    font-size:25px;
     padding-bottom: 20px;
     color:white;
 }
 .input{
-    height: 5vh;
+    height: 30px;
     font-size: large;
     
 }
 .one{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+
 }
 
 .ini1{
     padding-left: 0.7px;
 }
 .buttonfn{
-    color:green;
+    color:black;
     height: 40px;
     width: 100px;
-    border-radius: 5%;
-    font-size: large;
+    border-radius: 8%;
+    font-size: 20px;
+    padding-right: 30px;
+
 }
 .head{
     display: flex;
@@ -41,7 +44,7 @@
  
  }
  .bg{
-     background-image: url("../UtilityApp.jpeg");;
+    background-color: rgb(97, 93, 93);
      }
      h1{
          color:  white;
@@ -51,3 +54,15 @@
      .title2{
          padding-right:80px;
      }
+
+
+/* @media screen and (max-width: 800px) {
+    .datetime{
+        display: flex;
+        
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+    }
+} */

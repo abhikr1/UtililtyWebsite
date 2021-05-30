@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(97, 93, 93);
+}
+.output-color{
+    height: 50px;
+    width: 100px;
+    border-radius: 0.4vw;
+    margin-left: 45vw;
+}
+.red-slider{
+    -webkit-appearance: none;
+    background: #cc0808;
+}
+
+.blue-slider{
+  -webkit-appearance: none;
+  background: #054b6b;
+}
+
+
+.green-slider{
+  -webkit-appearance: none;
+  background: #0bb814;
+}
+
+.textbox{
+    height: 25px;
+
+}
+
+.convert-button{
+    width: 80px;
+    height: 30px;
+}
+.clear-button{
+    width: 80px;
+    height: 30px;
+}
+.output{
+padding-top: 5%;
+}
+
+.textbox-output{
+    width: 120px;
+    height: 30px;
+}
+
+.input-section{
+    padding-top: 5%;
+    display: flex;
+}

@@ -1,5 +1,5 @@
-let input = document.querySelector('.input');
-let output = document.querySelector('.output');
+let input = document.querySelector('#input');
+let output = document.querySelector('#output');
 const hindi = document.querySelector('#hindi');
 const reset = document.querySelector('#reset')
 hindi.addEventListener('click', () => {
